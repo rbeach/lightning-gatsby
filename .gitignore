@@ -1,34 +1,3 @@
-# Ignore configuration files that may contain sensitive information.
-local.settings.php
-local.drushrc.php
-local.drush.yml
-local.aliases.drushrc.php
-local.services.yml
-tests/behat/local.yml
-box/local.config.yml
-*.local
-local.blt.yml
-
-# Ignore drupal core.
-docroot/core
-
-# Ignore paths that contain user-generated content.
-docroot/sites/*/files
-/files-private
-docroot/sites/*/private
-
-# Ignore contrib modules. These should be created during build process.
-docroot/modules/contrib
-docroot/themes/contrib
-docroot/profiles/contrib
-docroot/libraries
-drush/contrib
-
-# Ignore custom theme build artifacts
-docroot/themes/custom/*/node_modules
-docroot/themes/custom/*/css
-docroot/themes/custom/*/styleguide
-
 # Ignore build artifacts
 deployment_identifier
 /deploy
